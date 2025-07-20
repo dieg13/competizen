@@ -12,7 +12,7 @@ Ce répertoire contient le backend de l'application **CompetiZen**, une platefor
 - **Architecture** Clean Architecture + DDD
 - **Tests** TDD avec Pest
 
-## 📁 Structure du projet
+## 📁 Structure du projet backend
 
 ```bash
 apps/backend/
@@ -43,7 +43,7 @@ symfony server:start
 ## ✅ Tester l’application (Pest)
 
 ```bash
-vendor/bin/pest
+composer test
 ```
 
 ## 🧪 Premier test fonctionnel
