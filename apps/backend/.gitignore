@@ -1,6 +1,7 @@
 ###> IDE ###
 .idea/
 ###< IDE ###
+
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -10,6 +11,12 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
 ###> IA Prompt files ###
 .github-copilot-rules-back
 ###< IA Prompt files ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###

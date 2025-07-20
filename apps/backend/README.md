@@ -37,7 +37,7 @@ cd apps/backend/
 composer install
 
 # Lancer le serveur local
-symfony serve
+symfony server:start
 ```
 
 ## ✅ Tester l’application (Pest)
@@ -55,10 +55,6 @@ POST /events
 ```
 
 Il est couvert par un test automatisé (TDD).
-
-## 📦 Modules Symfony installés
-
-Voir la checklist dans `docs/tech/symfony_modules_checklist.md` à la racine.
 
 ---
 
