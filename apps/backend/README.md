@@ -51,7 +51,7 @@ vendor/bin/pest
 Un endpoint de test est disponible à l’URL :
 
 ```
-POST /events
+GET /test
 ```
 
 Il est couvert par un test automatisé (TDD).
